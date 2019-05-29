@@ -1,0 +1,31 @@
+{
+   "name":"edward-pendragon/integration-electronic-invoice",
+   "type":"library",
+   "description":"NubeFacT PSE-OSE",
+   "keywords":[
+      "NubeFacT",
+      "OSE",
+      "PSE",
+      "api"
+   ],
+   "license":"MIT",
+   "authors":[
+      {
+       "name":"edward-pendragon",
+       "role":"Developer"
+      }
+   ],
+   "support":{
+      "source":"https://github.com/edward-pendragon/integration-electronic-invoice",
+      "issues":"https://github.com/edward-pendragon/integration-electronic-invoice/issues"
+   },
+   "require":{
+      "php":"^5.6 || ^7.0",
+      "symfony/symfony": "2.1.*"
+   },
+   "autoload":{
+      "psr-4":{
+         "edward-pendragon\\integration-electronic-invoice\\":"src"
+      }
+   }
+}
